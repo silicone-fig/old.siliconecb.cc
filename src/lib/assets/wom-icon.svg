@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="wasteof.logo" class="cls-1" d="M0,0H1000V224H228V773h772v227H0V0ZM297,361h78l43,185,2-1,44-184h77q22.5,91.991,45,184h2q21-91.99,42-184h77L633,637l-83-1L516,512c-4.3-14.316-4.986-37.576-14-48L453,637H371Z"/>
+</svg>
