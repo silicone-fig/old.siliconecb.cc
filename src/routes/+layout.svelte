@@ -7,7 +7,6 @@
 	import Modal from '$lib/components/Modal.svelte';
 	import { onMount } from 'svelte';
 	import { customBackground } from '$lib/store';
-	import Shynet from '$lib/components/shynet.svelte';
 	// import routes from '$lib/NavRoutes';
 
 	let copied = false;
