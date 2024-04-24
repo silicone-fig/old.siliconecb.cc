@@ -2,7 +2,6 @@
 // @ts-nocheck
 	import FaGithub from 'svelte-icons/fa/FaGithub.svelte';
 	import FaEnvelope from 'svelte-icons/fa/FaEnvelope.svelte';
-
 	import { onMount } from 'svelte';
 </script>
 
