@@ -1,0 +1,5 @@
+import{s as c,n}from"../chunks/scheduler.1f0dc6aa.js";import{S as m,i as h,s as p,g as d,F as u,f as o,c as g,h as f,x as _,k as v,a as r}from"../chunks/index.bb59f2b9.js";function y(l){let a,e,i=`<main class="svelte-1pumno8"><h1 class="svelte-1pumno8">about me</h1> <p>Heyo! I&#39;m siliconeCB_, an amateur web developer with just under 2 years of experience! 
+			I got into programming through Scratch in elementary school, and my life has never been the same! 
+			My favorite programming language is Svelte, which is the framework running the website you&#39;re looking at right now!
+			<br/> <br/>
+			I also enjoy playing around with graphics and VFX in Adobe Photoshop and After Effects! 😃</p></main>`;return{c(){a=p(),e=d("div"),e.innerHTML=i,this.h()},l(t){u("svelte-9befzm",document.head).forEach(o),a=g(t),e=f(t,"DIV",{class:!0,"data-svelte-h":!0}),_(e)!=="svelte-dgcm3f"&&(e.innerHTML=i),this.h()},h(){document.title="siliconeCB | about me",v(e,"class","container svelte-1pumno8")},m(t,s){r(t,a,s),r(t,e,s)},p:n,i:n,o:n,d(t){t&&(o(a),o(e))}}}class x extends m{constructor(a){super(),h(this,a,null,y,c,{})}}export{x as component};
