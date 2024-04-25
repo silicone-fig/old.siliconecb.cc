@@ -3,5 +3,5 @@ WORKDIR /app/public
 COPY package*.json ./
 RUN npm install
 COPY . .
-EXPOSE 4173
-CMD ["npm", "run", "preview"]
+EXPOSE 3000
+CMD ["npm", "run", "dev"]
