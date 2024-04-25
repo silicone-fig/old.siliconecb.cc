@@ -5,14 +5,14 @@ export default defineConfig({
   plugins: [sveltekit()],
   server: {
     watch: {
-      usePolling: true
+      usePolling: false
     },
     host: true,
     strictPort: true,
     port: 3000
   },
   optimizeDeps: {
+    noDiscovery: true,
     include: [],
-    exclude: [],
   },
 });
