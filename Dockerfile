@@ -7,4 +7,4 @@ FROM node:16-alpine
 WORKDIR /app
 COPY --from=builder /app/build /app
 EXPOSE 3000
-CMD ["npm", "run", "prod"]
+CMD ["npm", "run", "dev"]
