@@ -43,3 +43,8 @@ docker build -t siliconecb.cc .
 ```
 docker run -p 3000:3000 --name [container name] siliconecb.cc
 ```
+<sub style="font-size: 0.5em;">____</sub>
+
+<sub style="font-size: 0.5em;">production page uses Shynet Analytics for privacy-friendly tracking, if you prefer not to be tracked, block ``utm.siliconecb.cc`` in your DNS/ad block list.</sub>
+
+<sub style="font-size: 0.5em;">under active development, contributions are welcome 🙌</sub>
