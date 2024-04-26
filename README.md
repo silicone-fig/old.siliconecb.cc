@@ -1,6 +1,6 @@
 # siliconecb.cc
 
-my personal portfolio and blog website, where I showcase my projects and other stuff.
+my personal portfolio and blog website where I showcase my projects and other stuff.
 
 ## Installation
 
@@ -14,28 +14,32 @@ git clone https://github.com/silicone-fig/siliconecb.cc.git
 npm install
 ```
 
-3. To build the project, run:
+3. Build the project:
 ```
 npm run build
 ```
-
-4. To build the Docker container, run:
-```
-docker build -t siliconecb.cc .
-```
 ## Usage
-5. To run the development server, use:
+5. To run the development server:
 ```
 npm run dev
 ```
 
-6. To run the preview server, use:
+6. To run the production preview server:
 ```
 npm run preview
 ```
 
-If you encounter a Vite permission error, try:
+if you encounter a Vite permission error, try:
 ```
 rm -rf node_modules
 npm install
+```
+## Docker
+1. Build dockerfile:
+```
+docker build -t siliconecb.cc .
+```
+2. Run container:
+```
+docker run -p 3000:3000 --name [container name] siliconecb.cc
 ```
