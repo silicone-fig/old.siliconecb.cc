@@ -7,7 +7,6 @@
 
 <svelte:head>
 	<title>siliconeCB | home</title>
-	<script src="https://shynet.siliconecb.cc/ingress/b53499ae-8576-49a2-afe8-3d8f3c392aeb/script.js"></script>
 </svelte:head>
 <main>
 	<h1>hello!👋 <br /> i'm siliconeCB_, a frontend developer based out of the US!</h1>
