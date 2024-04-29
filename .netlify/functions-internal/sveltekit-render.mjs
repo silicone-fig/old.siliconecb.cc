@@ -9,10 +9,10 @@ function __memo(fn) {
 return {
 	appDir: "_app",
 	appPath: "_app",
-	assets: new Set(["favicon.ico","logo.svg","robots.txt"]),
-	mimeTypes: {".ico":"image/vnd.microsoft.icon",".svg":"image/svg+xml",".txt":"text/plain"},
+	assets: new Set(["robots.txt"]),
+	mimeTypes: {".txt":"text/plain"},
 	_: {
-		client: {"start":"_app/immutable/entry/start.fd628934.js","app":"_app/immutable/entry/app.9b010da2.js","imports":["_app/immutable/entry/start.fd628934.js","_app/immutable/chunks/scheduler.90005f0d.js","_app/immutable/chunks/singletons.29f3ec48.js","_app/immutable/entry/app.9b010da2.js","_app/immutable/chunks/scheduler.90005f0d.js","_app/immutable/chunks/index.e2c8f373.js"],"stylesheets":[],"fonts":[]},
+		client: {"start":"_app/immutable/entry/start.c805ba85.js","app":"_app/immutable/entry/app.f8fd0c7a.js","imports":["_app/immutable/entry/start.c805ba85.js","_app/immutable/chunks/scheduler.90005f0d.js","_app/immutable/chunks/singletons.74f777e0.js","_app/immutable/entry/app.f8fd0c7a.js","_app/immutable/chunks/scheduler.90005f0d.js","_app/immutable/chunks/index.e2c8f373.js"],"stylesheets":[],"fonts":[]},
 		nodes: [
 			__memo(() => import('../server/nodes/0.js')),
 			__memo(() => import('../server/nodes/1.js')),

@@ -104,7 +104,7 @@ const options = {
   root: Root,
   service_worker: false,
   templates: {
-    app: ({ head, body, assets: assets2, nonce, env }) => '<!DOCTYPE html>\r\n<html lang="en">\r\n	<head>\r\n		<meta charset="utf-8" />\r\n		<link rel="icon" href="https://u.cubeupload.com/siliconefig/picture2.png" />\r\n		<link rel="preconnect" href="https://fonts.gstatic.com" />\r\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\r\n\r\n		<title>siliconeCB_ | home</title>\r\n		<meta name="title" content="siliconeCB_ - amateur web dev" />\r\n		<meta name="description" content="front-End dev, based in the US 🦅" />\r\n\r\n		' + head + '\r\n	</head>\r\n	<body>\r\n		<div id="svelte">' + body + '</div>\r\n		<noscript>\r\n			<img src="https://rtc.siliconecb.cc/ingress/c3da1367-fd54-490f-ad57-5ab91499ebf8/pixel.gif">\r\n		</noscript>\r\n		<script defer src="https://rtc.siliconecb.cc/ingress/c3da1367-fd54-490f-ad57-5ab91499ebf8/script.js"><\/script>\r\n	</body>\r\n</html>\r\n',
+    app: ({ head, body, assets: assets2, nonce, env }) => '<!DOCTYPE html>\r\n<html lang="en">\r\n	<head>\r\n		<meta charset="utf-8" />\r\n		<link rel="icon" href="https://u.cubeupload.com/siliconefig/picture2.png" />\r\n		<link rel="preconnect" href="https://fonts.gstatic.com" />\r\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\r\n\r\n		<title>siliconeCB_ | home</title>\r\n		<meta name="title" content="siliconeCB_ - amateur web dev" />\r\n		<meta name="description" content="front-End dev, based in the US 🦅" />\r\n\r\n		' + head + '\r\n	</head>\r\n	<body>\r\n		<div id="svelte">' + body + '</div>\r\n		<noscript>\r\n    			<img src="https://rtc.siliconecb.cc/ingress/4895c190-29c3-4025-b5e2-f6f6619441a0/pixel.gif">\r\n		</noscript>\r\n		<script defer src="https://rtc.siliconecb.cc/ingress/4895c190-29c3-4025-b5e2-f6f6619441a0/script.js"><\/script>\r\n	</body>\r\n</html>\r\n',
     error: ({ status, message }) => '<!DOCTYPE html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<title>' + message + `</title>
 
 		<style>
@@ -166,7 +166,7 @@ const options = {
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
-  version_hash: "tjloam"
+  version_hash: "187i056"
 };
 function get_hooks() {
   return {};
