@@ -131,7 +131,7 @@
 
 	:global(::selection) {
 		color: white;
-		background: #001812;
+		background: #155a49;
 	}
 
 	:global(::-webkit-scrollbar) {
