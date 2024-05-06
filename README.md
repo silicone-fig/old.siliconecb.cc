@@ -2,7 +2,7 @@
 
 my personal portfolio and blog website where I showcase my projects and other stuff.
 
-## Installation
+## installation
 
 1. Clone the repository:
 ```
@@ -18,7 +18,7 @@ npm install
 ```
 npm run build
 ```
-## Usage
+## running locally
 5. To run the development server:
 ```
 npm run dev
@@ -34,7 +34,7 @@ if you encounter a Vite permission error, try:
 rm -rf node_modules
 npm install
 ```
-## Docker
+## running with docker
 1. Build dockerfile:
 ```
 docker build -t siliconecb.cc .
@@ -45,6 +45,6 @@ docker run -p 3000:3000 --name [container name] siliconecb.cc
 ```
 <sub style="font-size: 0.5em;">____</sub>
 
-<sub style="font-size: 0.5em;">production page uses Shynet Analytics for privacy-friendly tracking, if you prefer not to be tracked, block ``utm.siliconecb.cc`` in your DNS/ad block list.</sub>
+<sub style="font-size: 0.5em;">production page uses Shynet Analytics for privacy-friendly tracking and analytics data, if you prefer not to be tracked, block ``utm.siliconecb.cc`` in your DNS/ad block list.</sub>
 
 <sub style="font-size: 0.5em;">under active development, contributions are welcome 🙌</sub>
