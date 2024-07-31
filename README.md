@@ -1,7 +1,11 @@
-# siliconecb.cc
+# (old) siliconecb.cc
 
-my personal portfolio and blog website where I showcase my projects and other stuff.
+## ❗ no longer available at siliconecb.cc ❗
+previous version of my website built from a template, see my new (fully custom) site at https://siliconecb.cc
 
+this repo will be archived and the site most likely phased out in the near future
+
+----
 ## installation
 
 1. Clone the repository:
@@ -43,8 +47,3 @@ docker build -t siliconecb.cc .
 ```
 docker run -p 3000:3000 --name [container name] siliconecb.cc
 ```
-<sub style="font-size: 0.5em;">____</sub>
-
-<sub style="font-size: 0.5em;">production page uses Shynet Analytics for privacy-friendly tracking and analytics data, if you prefer not to be tracked, block ``utm.siliconecb.cc`` in your DNS/ad block list.</sub>
-
-<sub style="font-size: 0.5em;">under active development, contributions are welcome 🙌</sub>
