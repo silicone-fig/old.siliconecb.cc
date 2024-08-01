@@ -1,7 +1,7 @@
 # (old) siliconecb.cc
+previous version of my website built from a template, see my new (fully custom) site at https://siliconecb.cc
 
 ## ❗ no longer available at siliconecb.cc ❗
-previous version of my website built from a template, see my new (fully custom) site at https://siliconecb.cc
 
 this repo will be archived and the site most likely phased out in the near future
 
